@@ -225,9 +225,10 @@ section .container {
   text-align: center;
   color: var(--color-gray-light);
 }
-.container-others > p span {
+.container-others > p a {
   margin-left: 20px;
   color: var(--color-gray-strong);
+  text-decoration: none;
 }
 
 /* Responsive */
@@ -281,6 +282,9 @@ section .container {
   .container-others > p {
     font-size: 9px;
     line-height: 11px;
+  }
+  .container-others > p a{
+    margin-left: 15px;
   }
   .container-others .copy {
     font-size: 9.5px;
